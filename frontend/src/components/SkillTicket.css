@@ -1,0 +1,49 @@
+.skill-ticket {
+  --notch-bg: var(--canvas);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.skill-ticket-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 14px;
+}
+
+.skill-ticket-user {
+  font-weight: 600;
+  margin: 0;
+}
+
+.skill-ticket-rating {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--accent-dark);
+  margin: 2px 0 0;
+}
+
+.skill-ticket-trade {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.skill-ticket-side {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.skill-ticket-swap {
+  color: var(--ink-faint);
+  font-size: 1.1rem;
+  margin-top: 14px;
+}
+
+.skill-ticket-blurb {
+  font-size: 0.88rem;
+  flex: 1;
+}
